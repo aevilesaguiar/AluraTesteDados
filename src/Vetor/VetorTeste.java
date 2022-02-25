@@ -8,6 +8,14 @@ public class VetorTeste {
 		Aluno a2 = new Aluno("Jose");
 		Aluno a3 = new Aluno("Danilo");
 		Aluno a4 = new Aluno("Flavio");
+		Aluno a5 = new Aluno("Joao");
+		Aluno a6 = new Aluno("Jose");
+		Aluno a7 = new Aluno("Danilo");
+		Aluno a8 = new Aluno("Flavio");
+		Aluno a9 = new Aluno("Joao");
+		Aluno a10 = new Aluno("Jose");
+		Aluno a11 = new Aluno("Danilo");
+		Aluno a12 = new Aluno("Flavio");
 
 		Vetor lista = new Vetor();
 

@@ -1,18 +1,18 @@
-package Vetor;
+package testeProdutos;
+
 import java.util.Objects;
 
-public class Aluno {
+public class Produto {
 	
 	private String nome;
-
-	public Aluno(String nome) {
-
+	
+	public Produto(String nome) {
 		this.nome = nome;
 	}
 	
 	
 
-	public Aluno() {
+	public Produto() {
 		super();
 
 	}
@@ -28,7 +28,6 @@ public class Aluno {
 		return Objects.hash(nome);
 	}
 
-	//método compara dois objetos
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -37,14 +36,19 @@ public class Aluno {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Aluno other = (Aluno) obj;
+		Produto other = (Produto) obj;
 		return Objects.equals(nome, other.nome);
 	}
 
+
+
 	@Override
 	public String toString() {
-		return "Aluno [nome=" + nome + "]";
+		return "Produto [nome=" + nome + "]";
 	}
+
+
+
 	
 	
 
